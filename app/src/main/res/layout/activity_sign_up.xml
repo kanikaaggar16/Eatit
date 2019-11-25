@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".sign_up">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Enter phone number"
+        android:layout_marginTop="270dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/ed_number"
+        android:layout_marginTop="290dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:text="SIGN UP"
+        android:id="@+id/signup"
+        android:textSize="25dp"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="620dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Enter your password"
+        android:layout_marginTop="520dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/ed_password"
+        android:layout_height="70dp"
+        android:layout_marginTop="535dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Enter your name"
+        android:layout_marginTop="400dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/ed_name"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
